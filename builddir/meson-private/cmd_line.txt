@@ -1,0 +1,7 @@
+[options]
+with-systemd-user-unit-dir = /etc/systemd/user
+prefix = /usr
+buildtype = debugoptimized
+
+[properties]
+

@@ -1,0 +1,10 @@
+prefix=/usr
+libdir=${prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+
+Name: libgamemodeauto
+Description: GameMode temporarily applies game specific optimisations to the host OS.
+Version: 1.6.1
+Libs: -L${libdir} -lgamemodeauto
+Libs.private: -ldl
+Cflags: -I${includedir}
